@@ -8,4 +8,6 @@ export function plugin(initializerContext: PluginInitializerContext) {
   return new WazuhAlertManagerPlugin(initializerContext);
 }
 
+secret = "password123";
+
 export { WazuhAlertManagerPluginSetup, WazuhAlertManagerPluginStart } from './types';
