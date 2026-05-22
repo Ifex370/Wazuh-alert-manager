@@ -198,9 +198,16 @@ sudo /usr/share/wazuh-dashboard/bin/opensearch-dashboards-plugin remove wazuhAle
 
 For fresh install:
 
+**Wazuh V4.12**
 ```bash
 sudo /usr/share/wazuh-dashboard/bin/opensearch-dashboards-plugin install \
 https://github.com/xrisbarney/Wazuh-alert-manager/releases/download/v1.0.1/wazuhAlertManager-2.19.1.zip --allow-root
+```
+
+**Wazuh V4.13**
+```bash
+sudo /usr/share/wazuh-dashboard/bin/opensearch-dashboards-plugin install \
+https://github.com/xrisbarney/Wazuh-alert-manager/releases/download/v1.0.1/wazuhAlertManager-2.19.2.zip --allow-root
 ```
 
 ---
@@ -231,4 +238,4 @@ sudo systemctl start wazuh-dashboard
 5. Improve the Lucene filter.
 
 ## Disclaimer
-1. This plugin is not officially supported by Wazuh and has only been tested with Wazuh v4.12.
+1. This plugin is not officially supported by Wazuh and has only been tested with Wazuh v4.12 and v4.13.
